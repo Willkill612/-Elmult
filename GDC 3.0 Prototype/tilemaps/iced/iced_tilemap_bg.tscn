@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://tilemaps/earth/earth_tileset.tres" type="TileSet" id=1]
+
+[node name="IcedTilemapBG" type="TileMap"]
+modulate = Color( 0.643137, 0.643137, 0.643137, 1 )
+scale = Vector2( 2, 2 )
+z_index = -100
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 32, 32 )
+collision_layer = 0
+collision_mask = 0
+occluder_light_mask = 2
+format = 1
+tile_data = PoolIntArray( -3014633, 20, 0 )
